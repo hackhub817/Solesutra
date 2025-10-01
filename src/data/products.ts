@@ -1,4 +1,8 @@
 import { Product, Category } from "@/types/product";
+import Add1 from "@/assets/samba_white/Addidas1.jpg";
+import Add2 from "@/assets/samba_white/Addidas2.jpg";
+import Add3 from "@/assets/samba_white/Addidas3.jpg";
+import Add4 from "@/assets/samba_white/Addidas4.jpg";
 
 export const categories: Category[] = [
   { id: "clothing", name: "Clothing", image: "/placeholder.svg" },
@@ -212,16 +216,16 @@ export const products: Product[] = [
   // Footwear (sizes: 6, 7, 8, 9)
   {
     id: "13",
-    name: "Running Shoes",
-    description: "Lightweight running shoes with cushioned sole",
+    name: "Addidas OG Samba",
+    description: "Lightweight shoes with cushioned sole",
     originalPrice: 2499,
     discountedPrice: 1799,
     category: "footwear",
     colors: [
       {
-        name: "Blue",
-        code: "#1E3A8A",
-        images: ["/runningshoes-blue1.svg", "/runningshoes-blue2.svg"],
+        name: "White",
+        code: "#fffff",
+        images: [Add1, Add2, Add3, Add4],
       },
     ],
     sizes: ["6", "7", "8", "9"],
@@ -251,8 +255,8 @@ export const products: Product[] = [
     category: "footwear",
     colors: [
       {
-        name: "Black",
-        code: "#000000",
+        name: "white",
+        code: "#ffffff",
         images: [
           "/formal-black1.svg",
           "/formal-black2.svg",
