@@ -3,6 +3,20 @@ import Add1 from "@/assets/samba_white/Addidas1.jpg";
 import Add2 from "@/assets/samba_white/Addidas2.jpg";
 import Add3 from "@/assets/samba_white/Addidas3.jpg";
 import Add4 from "@/assets/samba_white/Addidas4.jpg";
+import Puma1 from "@/assets/puma_brown/PUMA1.jpeg";
+import Puma2 from "@/assets/puma_brown/PUMA2.jpg";
+import Puma3 from "@/assets/puma_brown/PUMA3.jpg";
+import Puma4 from "@/assets/puma_brown/PUMA4.jpg";
+import onitsuka1 from "@/assets/Onitsuka_green/Onitsuka1.jpg";
+import onitsuka2 from "@/assets/Onitsuka_green/Onitsuka2.jpg";
+import onitsuka3 from "@/assets/Onitsuka_green/Onitsuka3.jpg";
+import onitsuka4 from "@/assets/Onitsuka_green/Onitsuka4.jpg";
+import nikeb1 from "@/assets/nike_black/NIKE1.jpg";
+import nikeb2 from "@/assets/nike_black/NIKE2.jpg";
+import nikeb3 from "@/assets/nike_black/NIKE3.jpg";
+import niker1 from "@/assets/nike_red/NIKE3.jpg";
+import niker2 from "@/assets/nike_red/NIKE2.jpg";
+import niker3 from "@/assets/nike_red/NIKE1.jpg";
 
 export const categories: Category[] = [
   { id: "clothing", name: "Clothing", image: "/placeholder.svg" },
@@ -232,61 +246,64 @@ export const products: Product[] = [
   },
   {
     id: "14",
-    name: "Casual Sneakers",
+    name: "NIKE Air Jordan 1 High Praline",
     description: "Comfortable sneakers for daily wear",
     originalPrice: 1899,
     discountedPrice: 1399,
     category: "footwear",
     colors: [
       {
-        name: "White",
-        code: "#FFFFFF",
-        images: ["/sneakers-white1.svg", "/sneakers-white2.svg"],
+        name: "Red",
+        code: "#FF0000",
+        images: [niker1, niker2, niker3],
       },
     ],
     sizes: ["6", "7", "8", "9"],
   },
   {
     id: "15",
-    name: "Formal Shoes",
+    name: "Nike SB Dunk Low Fog",
     description: "Elegant formal shoes for office wear",
     originalPrice: 2999,
     discountedPrice: 2399,
     category: "footwear",
     colors: [
       {
-        name: "white",
-        code: "#ffffff",
-        images: [
-          "/formal-black1.svg",
-          "/formal-black2.svg",
-          "/formal-black3.svg",
-        ],
-      },
-      {
-        name: "Brown",
-        code: "#8B4513",
-        images: [
-          "/formal-brown1.svg",
-          "/formal-brown2.svg",
-          "/formal-brown3.svg",
-        ],
+        name: "Black",
+        code: "#000000",
+        images: [nikeb1, nikeb2, nikeb3],
       },
     ],
     sizes: ["6", "7", "8", "9"],
   },
   {
     id: "16",
-    name: "Sports Sandals",
+    name: "Onitsuka Tiger Mexico 66 Unisex Beige",
     description: "Durable sandals for outdoor activities",
     originalPrice: 1299,
     discountedPrice: 899,
     category: "footwear",
     colors: [
       {
-        name: "Gray",
-        code: "#6B7280",
-        images: ["/sandals-gray1.svg", "/sandals-gray2.svg"],
+        name: "Green",
+        code: "#008000",
+        images: [onitsuka1, onitsuka2, onitsuka3, onitsuka4],
+      },
+    ],
+    sizes: ["6", "7", "8", "9"],
+  },
+  {
+    id: "16",
+    name: "PUMA Speed Cat",
+    description: "Durable sandals for outdoor activities",
+    originalPrice: 1299,
+    discountedPrice: 899,
+    category: "footwear",
+    colors: [
+      {
+        name: "Brown",
+        code: "#4a2c2a",
+        images: [Puma1, Puma2, Puma3, Puma4],
       },
     ],
     sizes: ["6", "7", "8", "9"],

@@ -11,7 +11,7 @@ const CategoryPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       <main className="container mx-auto px-4 py-8 animate-fade-in">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-foreground md:text-4xl">
@@ -23,9 +23,9 @@ const CategoryPage = () => {
         </div>
 
         {categoryProducts.length > 0 ? (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
             {categoryProducts.map((product, index) => (
-              <div 
+              <div
                 key={product.id}
                 className="animate-fade-in-up"
                 style={{ animationDelay: `${index * 0.05}s` }}

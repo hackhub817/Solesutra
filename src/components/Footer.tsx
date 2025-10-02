@@ -5,6 +5,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const FooterComp = () => {
   return (
@@ -28,16 +29,22 @@ const FooterComp = () => {
           </h3>
           <ul className="space-y-2">
             <li className="hover:text-blue-600 cursor-pointer transition duration-300">
-              Home
+              <Link to="/">Home</Link>
             </li>
             <li className="hover:text-blue-600 cursor-pointer transition duration-300">
               Categories
             </li>
+
             <li className="hover:text-blue-600 cursor-pointer transition duration-300">
-              Cart
-            </li>
-            <li className="hover:text-blue-600 cursor-pointer transition duration-300">
-              Contact
+              <a
+                href="https://wa.me/9236074373
+"
+                target="_blank"
+                rel="noreferrer"
+                className=" hover:scale-110 transition-transform duration-300"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>

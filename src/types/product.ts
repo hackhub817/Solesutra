@@ -6,18 +6,18 @@ export interface Product {
   discountedPrice: number;
   category: string;
   colors: {
-    name: string; // Color name
-    code: string; // Hex code for swatch display
-    images: string[]; // Array of images for that color
+    name: string;
+    code: string;
+    images: string[];
   }[];
-  sizes: string[]; // Sizes available for this product
+  sizes: string[];
 }
 
 export interface CartItem extends Product {
   quantity: number;
-  selectedColor?: string; // name of the color
-  selectedSize?: string; // size
-  selectedImage?: string; // store first image of selected color
+  selectedColor?: string;
+  selectedSize?: string;
+  selectedImage?: string;
 }
 
 export interface Category {
