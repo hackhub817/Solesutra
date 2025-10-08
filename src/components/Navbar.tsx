@@ -28,7 +28,6 @@ export const Navbar = () => {
           to="/"
           className="text-2xl text-[#D4AF37] sm:text-2xl font-bold text-primary whitespace-nowrap"
         >
-          {/* Logo Image */}
           <div className="flex items-center gap-3">
             <img
               src={logo} // 👉 h
@@ -36,7 +35,6 @@ export const Navbar = () => {
               className="lg:h-8 lg:w-8 h-8 w-8 sm:h-10 sm:w-10 object-contain"
             />
 
-            {/* Brand Name */}
             <span className="lg:text-[1.7rem] text-xl sm:text-2xl font-bold text-[#D4AF37]">
               SoleSutra
             </span>
