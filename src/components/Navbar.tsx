@@ -41,7 +41,6 @@ export const Navbar = () => {
           </div>
         </Link>
 
-        {/* SEARCH BAR */}
         <div className="flex flex-1 justify-center px-4 sm:px-8">
           <form
             onSubmit={handleSearch}
@@ -58,7 +57,6 @@ export const Navbar = () => {
           </form>
         </div>
 
-        {/* CART BUTTON */}
         <div className="flex items-center">
           <Sheet>
             <SheetTrigger asChild>
