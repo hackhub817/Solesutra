@@ -43,7 +43,7 @@ export const CartSidebar = () => {
 
   return (
     <div className="flex h-full flex-col">
-      {/* Header */}
+    
       <SheetHeader>
         <SheetTitle className="text-lg sm:text-xl">
           Shopping Cart ({cart.length})
