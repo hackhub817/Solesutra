@@ -6,6 +6,7 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+//this is the code for component
 
 const FooterComp = () => {
   return (
