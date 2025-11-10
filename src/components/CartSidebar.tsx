@@ -4,6 +4,8 @@ import { useCart } from "@/context/CartContext";
 import { SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { Separator } from "@/components/ui/separator";
 
+//this is code
+
 export const CartSidebar = () => {
   const { cart, removeFromCart, updateQuantity, getTotalPrice } = useCart();
 
